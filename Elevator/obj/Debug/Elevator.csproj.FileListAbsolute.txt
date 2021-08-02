@@ -1,0 +1,6 @@
+C:\Users\thiag\RiderProjects\Elevator\Elevator\bin\Debug\Elevator.exe
+C:\Users\thiag\RiderProjects\Elevator\Elevator\bin\Debug\Elevator.pdb
+C:\Users\thiag\RiderProjects\Elevator\Elevator\obj\Debug\Elevator.csproj.AssemblyReference.cache
+C:\Users\thiag\RiderProjects\Elevator\Elevator\obj\Debug\Elevator.csproj.CoreCompileInputs.cache
+C:\Users\thiag\RiderProjects\Elevator\Elevator\obj\Debug\Elevator.exe
+C:\Users\thiag\RiderProjects\Elevator\Elevator\obj\Debug\Elevator.pdb
