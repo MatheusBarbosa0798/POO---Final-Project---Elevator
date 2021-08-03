@@ -64,13 +64,13 @@ namespace Elevator
             if (CurrentFloor > 0)
             {
                 CurrentFloor--;
-                if (CurrentFloor == ElavatorModel.GroundFloor)
+                if (CurrentFloor == ElavatorModel.GroundFloor) 
                 {
-                    Console.WriteLine("Descendo!\nTérreo");
+                    Console.WriteLine("Descendo!\nTérreo"); //printa uma mensagem avisando que está descendo ao térreo
                 }
                 else
                 {
-                    Console.WriteLine("Descendo!\n" + CurrentFloor + "° Andar");
+                    Console.WriteLine("Descendo!\n" + CurrentFloor + "° Andar"); //printa uma mensagem avisando que está descendo para algum andar que não é o térreo
                 }
             }
             else
