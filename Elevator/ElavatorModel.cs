@@ -5,13 +5,14 @@ namespace Elevator
     public class ElavatorModel
     {
         private const int GroundFloor = 0;
-
+        
+        //gets e sets
         private int TotalFloors { get; set; }
         private int CurrentFloor { get; set; }
         private int TotalCapacity { get; set; }
         private int CurrentCapacity { get; set; }
 
-        public ElavatorModel(int totalCapacity, int totalFloors)
+        public ElavatorModel(int totalCapacity, int totalFloors) //construtor recebendo a capacidade total do elevador e total de andares do prédio
         {
             CurrentFloor = 0;
             CurrentCapacity = 0;
@@ -19,12 +20,12 @@ namespace Elevator
             TotalFloors = totalFloors;
         }
 
-        public void Enter()
+        public void Enter() //método "entra"
         {
             if (CurrentCapacity < TotalCapacity)
             {
                 CurrentCapacity++;
-                Console.WriteLine("Entrou!\n" + CurrentCapacity + " pessoas no elevador.");
+                Console.WriteLine("Entrou!\n" + CurrentCapacity + " pessoas no elevador."); //Console.WriteLine escreve no console
             }
             else
             {
@@ -32,7 +33,7 @@ namespace Elevator
             }
         }
 
-        public void Exit()
+        public void Exit() //método "sai"
         {
             if (CurrentCapacity > 0)
             {
@@ -45,7 +46,7 @@ namespace Elevator
             }
         }
 
-        public void Up()
+        public void Up() //método "sobe"
         {
             if (CurrentFloor < TotalFloors)
             {
@@ -58,7 +59,7 @@ namespace Elevator
             }
         }
 
-        public void Down()
+        public void Down() //método "desce"
         {
             if (CurrentFloor > 0)
             {
